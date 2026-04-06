@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News | Bisher Matalkeh</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: #1a1a2e; background: #fafafa; line-height: 1.7; }
+        nav { background: #1a1a2e; padding: 18px 40px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        nav .logo { color: #fff; font-size: 20px; font-weight: 700; text-decoration: none; }
+        nav .logo span { color: #4a90d9; }
+        nav ul { list-style: none; display: flex; gap: 30px; }
+        nav ul li a { color: #ccc; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.3s; }
+        nav ul li a:hover { color: #4a90d9; }
+        nav ul li a.active { color: #4a90d9; border-bottom: 2px solid #4a90d9; padding-bottom: 4px; }
+        .section { max-width: 900px; margin: 0 auto; padding: 60px 40px; }
+        .section-title { font-size: 32px; font-weight: 700; color: #1a1a2e; margin-bottom: 10px; }
+        .section-line { width: 60px; height: 4px; background: #4a90d9; border-radius: 2px; margin-bottom: 30px; }
+        .article { background: #fff; border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border-left: 4px solid #4a90d9; }
+        .article h3 { color: #1a1a2e; margin-bottom: 5px; font-size: 20px; }
+        .article .meta { color: #888; font-size: 13px; margin-bottom: 15px; }
+        .article p { color: #444; font-size: 15px; margin-bottom: 10px; }
+        .article ul { padding-left: 20px; margin: 10px 0; }
+        .article ul li { color: #444; font-size: 14px; margin-bottom: 6px; }
+        .article .takeaway { background: #f0f6ff; border-radius: 8px; padding: 15px; margin-top: 15px; font-size: 14px; color: #333; }
+        .article .takeaway strong { color: #4a90d9; }
+        .article .prompt-box { background: #f5f5f5; border-left: 3px solid #888; padding: 12px 15px; margin: 10px 0; font-size: 13px; color: #555; font-style: italic; }
+        .tag { display: inline-block; background: #e8f0fe; color: #4a90d9; padding: 3px 10px; border-radius: 15px; font-size: 11px; font-weight: 500; margin-right: 5px; }
+        footer { background: #1a1a2e; color: #888; text-align: center; padding: 30px; font-size: 13px; }
+        footer a { color: #4a90d9; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Bisher <span>Matalkeh</span></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="ainews.html" class="active">AI News</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="section">
+        <div class="section-title">Analysis of Weekly AI News</div>
+        <div class="section-line"></div>
+        <p style="color:#666; margin-bottom:30px;">Weekly AI news articles summarized using generative AI tools, with analysis of their relevance to the architecture, engineering, and construction (AEC) industry.</p>
+
+        <!-- WEEK 1 -->
+        <div class="article">
+            <h3>Deloitte: AI Trends and Early Predictions for 2026</h3>
+            <div class="meta">Week 1 | January 2026 | <span class="tag">Agentic AI</span> <span class="tag">Physical AI</span> <span class="tag">Sovereign AI</span></div>
+
+            <div class="prompt-box">
+                <strong>Prompt:</strong> Please summarize this article. The summary should highlight: 1) Main findings and arguments, 2) Broader implications for society, 3) Relevance or potential influence on the architecture, engineering, and/or construction industry.
+            </div>
+
+            <p><strong>Main Findings and Arguments:</strong></p>
+            <ul>
+                <li>Deloitte highlights <strong>three forces shaping near-term AI: agentic AI, physical AI, and sovereign AI</strong>.</li>
+                <li><strong>Agentic AI</strong> = autonomous systems that can adapt, make decisions, and collaborate with humans/other agents — aimed at automating dynamic, multi-step processes, not just repetitive tasks.</li>
+                <li>Deloitte's survey takeaway: agentic AI adoption is early (many orgs are piloting or haven't deployed), but public sentiment is optimistic about near-term organizational impact.</li>
+                <li><strong>Physical AI</strong> combines AI with robotics/IoT/autonomous systems/digital twins to sense-interpret-act in the physical world; adoption depends on barriers like safety/security requirements, costs, integration, workforce readiness, and public acceptance.</li>
+                <li><strong>Sovereign AI</strong> focuses on keeping data, models, and compute within national/regional boundaries to address privacy, regulatory, and geopolitical concerns.</li>
+                <li>Deloitte's early predictions for 2026 include: scaling agentic pilots to production plus stronger governance and "agent ops"; paced physical-AI adoption with emphasis on safety/security and human-machine teaming; and increased regulatory scrutiny driving demand for sovereign solutions and regional AI hubs.</li>
+            </ul>
+
+            <p><strong>Broader Implications for Society:</strong></p>
+            <ul>
+                <li><strong>Work changes from "doing tasks" to "managing systems."</strong> Agentic AI could shift roles toward supervising/steering automated workflows, increasing the value of judgment, oversight, and governance.</li>
+                <li><strong>Safety and accountability become more visible</strong> as AI moves into the physical world (robots, autonomous systems), raising expectations for safeguards, cybersecurity, and auditability.</li>
+                <li><strong>Data sovereignty and regulation will shape who can use what AI where.</strong> Sovereign AI implies a future with more localization, compliance, and potentially fragmented AI ecosystems by region.</li>
+                <li><strong>Trust and governance become "board-level" concerns</strong> as privacy disputes, cyberattacks, and new regulations pressure organizations to formalize AI controls.</li>
+            </ul>
+
+            <div class="takeaway">
+                <strong>AEC Relevance:</strong>
+                <ul style="margin-top:8px;">
+                    <li><strong>Agentic AI in project delivery:</strong> Could run multi-step workflows like drafting RFIs/submittals, summarizing specs, tracking action items, or monitoring compliance checklists — then escalating exceptions to humans.</li>
+                    <li><strong>Physical AI on jobsites:</strong> Deloitte's "physical AI" concept maps directly to AEC tools like robotics, autonomous equipment, sensors/IoT, and digital twins for safety monitoring, progress tracking, and equipment operations.</li>
+                    <li><strong>Sovereign AI for owners and public projects:</strong> AEC often handles sensitive facility and infrastructure data; sovereign AI concepts are relevant when clients require strict data residency, especially for public sector or regulated facilities.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- WEEK 2 -->
+        <div class="article">
+            <h3>Behind the Numbers Podcast: How AGI Will Change Our Lives</h3>
+            <div class="meta">Week 2 | February 2026 | <span class="tag">AGI</span> <span class="tag">Workforce</span> <span class="tag">Ethics</span> <span class="tag">Governance</span></div>
+
+            <div class="prompt-box">
+                <strong>Source:</strong> EMARKETER "Behind the Numbers" Podcast — Episode featuring analysts Jacob Bourne and Grace Harmon discussing AGI's impact on work, society, and when it might arrive.
+            </div>
+
+            <div class="prompt-box">
+                <strong>Prompt:</strong> Please summarize this script. The summary should highlight: 1) Main findings and arguments, 2) Broader implications for society, 3) Relevance or potential influence on the architecture, engineering, and/or construction industry.
+            </div>
+
+            <p><strong>Main Findings and Arguments:</strong></p>
+            <ul>
+                <li><strong>AGI's biggest near-term impact is the workplace.</strong> If AI reaches human-level capability, it could reshape what "work" means — either by shifting people into more relationship-heavy roles while AI handles "grunt work," or by pushing society toward universal basic income and large-scale job displacement.</li>
+                <li><strong>The key variable is autonomy + trust.</strong> The tipping point is: How much can organizations rely on AI without human supervision? If AI still needs oversight, humans become "AI supervisors."</li>
+                <li><strong>People's preferences and trust matter as much as capability.</strong> Even if AI performs well, many people prefer interacting with humans — and may distrust or devalue AI-created content once they know it's AI.</li>
+                <li><strong>AGI raises a governance/consent problem.</strong> Using AI isn't the same as informed consent — people may use it out of fear of falling behind at work.</li>
+                <li><strong>Safety and regulation are hard because AGI doesn't exist yet.</strong> Compared to nuclear/bioweapons treaties, AI is harder to regulate preemptively because exact capabilities and harms are uncertain.</li>
+                <li><strong>Predictions cluster around "by ~2030,"</strong> but there's no consensus. Estimates range from next year to centuries away, partly because definitions differ.</li>
+            </ul>
+
+            <p><strong>Broader Implications for Society:</strong></p>
+            <ul>
+                <li><strong>Economic power concentrates further in big tech.</strong> Wealth and influence accumulating among major AI firms gives them outsized political and legal sway.</li>
+                <li><strong>Major shifts in human identity and social fabric.</strong> AI expanding into companionship, coaching, and mental-health support raises questions about dependence, authenticity, and human connection.</li>
+                <li><strong>High-stakes governance and legitimacy challenges.</strong> If AGI is built by private companies, society faces a legitimacy gap — especially if adoption is driven by workplace pressure rather than genuine choice.</li>
+                <li><strong>Nontrivial risk and uncertainty.</strong> Advanced AI could deceive to achieve goals even when "aligned," and some builders view AGI as an existential risk.</li>
+            </ul>
+
+            <div class="takeaway">
+                <strong>AEC Relevance:</strong>
+                <ul style="margin-top:8px;">
+                    <li><strong>Workforce restructuring in AEC, not just automation.</strong> Firms may reduce headcount to fund AI initiatives, then potentially rehire or rebalance if AI can't yet replace field judgment, stakeholder management, or complex coordination.</li>
+                    <li><strong>A bigger premium on human-facing roles.</strong> If AI takes on drafting, documentation, scheduling optimization, and cost estimating, AEC professionals may shift toward client communication, negotiation, leadership, and interdisciplinary coordination.</li>
+                    <li><strong>Acceleration of R&D and engineering discovery.</strong> New materials discovery, energy systems optimization, and faster simulation/iteration for structural and geotechnical methods — potentially shortening innovation cycles.</li>
+                    <li><strong>Governance, liability, and procurement pressures.</strong> If AGI-like systems begin making design decisions or safety-critical checks, AEC will face questions of who is responsible when AI is wrong, new standards for verification, and contractual language around AI use.</li>
+                    <li><strong>Trust and "human preference" may limit adoption.</strong> Owners, regulators, and the public may demand human accountability for designs and safety decisions — even if AI performs well.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Bisher Matalkeh | CE 895: AI in the AEC Industry | University of Kansas | Spring 2026</p>
+        <p><a href="mailto:Bisherm@ku.edu">Bisherm@ku.edu</a> | (785) 550-3917</p>
+    </footer>
+
+</body>
+</html>
